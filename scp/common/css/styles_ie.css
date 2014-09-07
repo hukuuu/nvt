@@ -1,0 +1,66 @@
+/*
+ * ------ Include css for IE
+ */
+body {min-width: 980px;}
+
+.content:after {content: none;}
+.content:before {content: none;}
+
+.toggle > a {background: #b2e6fa;}
+.toggle > a.link-search {margin-left: 3px;}
+
+.nav-child-container {margin-left: -5px;}
+
+.off:after {
+    content: "OFF";
+    display: block;
+    position: absolute;
+    right: 78px;
+    bottom: -2px;
+    top: -4px;
+	left: 4px;
+}
+
+.switch {
+    border: none !important; 
+    overflow: visible !important; 
+    border: 4px solid #0070C0 !important;
+}
+
+.switch-container {margin-top: -5px;}
+.switch-container > span {line-height: 22px; overflow: hidden;}
+
+.input-wrapper {padding-bottom: 0 !important;}
+
+.onoffswitch {bottom: 4px !important;}
+
+.input-wrapper input {line-height: 30px !important;}
+
+#file_name {
+    border: none !important; 
+    outline: 3px solid rgb(0, 112, 192); 
+    height: 30px !important;
+}
+
+.btn-details-wrapper {padding-left: 0 !important; }
+
+.select2-container .select2-choice .select2-arrow {filter: none !important;}
+.select2-container .supplier-select2 .span12 .select2 {background: #fff !important;}
+.select2-focused, .select2-search input, .select2 input  {outline: none !important;}
+.select2-search input {height: 22px; height: auto !important; height: 100%;}
+
+.pull-left {table-layout: fixed;}
+
+.file_browse_wrapper > input {
+	height: 38px;
+	margin-left: -390px;
+	font-size: 140px;
+}
+
+#file_name label {margin-top: -5px !important;}
+#file_name input {max-height: 100%;height: 15px;}
+
+.errorCsvInput {outline-color: rgb(170, 0, 20) !important;}
+.errorTab {background: #d47f89 !important;}
+
+.results-block table {table-layout: fixed;}

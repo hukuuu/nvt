@@ -1,0 +1,565 @@
+body {
+    background-color: rgb(235,241,222);
+}
+
+/*Start Standard HTML Tags*/
+h5 {margin-top: 0 !important;}
+a {
+    color:rgb(228,108,10);
+}
+
+a:hover {
+    color:rgb(247,150,70);
+}
+
+/*Start Header*/
+.header {
+    background: rgb(235,241,222);
+}
+
+
+/*Start Footer*/
+.footer {margin-top: 20px;
+  background: rgb(235,241,222);
+  color: rgb(246,139,50);
+}
+.footer div a{
+	color: rgb(246,139,50);
+	}
+
+/*End Footer*/
+
+/*Start Main menu*/
+.leftMenuWrapper {margin: 0 0 0 !important;}
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus { background-color: rgb(246,139,50);}
+
+/*End Main menu*/
+
+
+/*Start LogIn Page*/
+/*End LogIn Page*/
+
+/*Start LogOut Page/button*/
+	.logout a{
+		background: #E46C0A;
+	}
+	
+	.logout a:hover{
+		background: hsl(17, 83%, 65%);
+		color: hsl(0,100%,100%);
+	}
+	
+ 	.logout a:active{
+		background: hsl(17, 83%, 65%);
+		color: hsl(0,100%,100%);
+	}
+/*End LogOut Page/button*/
+
+
+/*Start Buttons*/  /*RENAME THE CSS CLASS NAME*/
+.flxw-button{
+    background: rgb(228,108,10);
+}
+.flxw-button:hover{
+	background: hsl(17, 83%, 65%);
+	color: hsl(0,100%,100%);
+}
+.flxw-button:active{
+	background: hsl(17, 83%, 65%);
+	color: hsl(0,100%,100%);
+}
+.flxw-button:visited{
+	background: hsl(17, 83%, 65%);
+	color: hsl(0,100%,100%);
+}
+.flxw-button:focus{
+	background: hsl(17, 83%, 65%);
+	color: hsl(0,100%,100%);
+	outline: none;
+}
+/*back/Cancel button*/
+.flxw-button-back{
+	color: rgb(228,108,10)!important;
+	background: hsl(0, 100%, 100%)!important;
+	border: 2px solid rgb(228,108,10)!important;
+}
+.flxw-button-back:hover{
+	background: hsl(0, 100%, 100%);
+	color: hsl(17, 83%, 65%)!important;
+	border: 2px solid hsl(17, 83%, 65%)!important;
+}
+.flxw-button-back:active{
+	background: hsl(0, 100%, 100%);
+	color: hsl(17, 83%, 65%)!important;
+	border: 2px solid hsl(17, 83%, 65%)!important;
+}
+.flxw-button-back:visited{
+	background: hsl(0, 100%, 100%);
+	color: hsl(17, 83%, 65%)!important;
+	border: 2px solid hsl(17, 83%, 65%)!important;
+}
+.flxw-button-back:focus{
+	background: hsl(0, 100%, 100%);
+	color: hsl(17, 83%, 65%)!important;
+	border: 2px solid hsl(17, 83%, 65%)!important;
+	outline: none;
+}
+/*End Buttons*/
+
+.nav-pills>li>a{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; border: 1px solid rgb(246,139,50);}
+.btn-small{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+
+input[type="radio"] {margin:0 5px 5px 40% !important;}
+.clearfix{margin-left:5px;}
+
+.row-fluid [class*="span"]:first-child {
+	border-color: rgb(228,108,10);
+}
+
+/*Content block*/
+.content-wrapper {
+    background-color: hsl(79,40%,91%);
+}
+
+.content {
+    border: 1px solid rgb(246,139,50);
+}
+
+.content:after {
+    border-right: 20px solid rgba(255, 255, 255, 1);
+}
+
+.content:before {
+    border-right: 21px solid rgb(246,139,50);
+}
+/*Content block*/
+
+/*Blocks*/
+div.left {
+    border: 1px solid #A8A8A8;
+}
+
+.block-bordered-lime {
+    border: 1px solid rgb(80,233,55);
+}
+
+.block-bordered-blue {
+    /* border: 1px solid #be202e; */
+}
+
+.block-bottom {
+    border: 1px solid hsl(2, 48%, 53%);
+}
+
+.block-info {background-color: rgb(235,241,222);}
+
+.results-block tr, .query-results-block tr {background: #f0f0f0; font-size: 12px;}
+.results-block tr:nth-child(even), .query-results-block tr:nth-child(even) {background: rgb(252,221,207);}
+.results-block tr th, .query-results-block tr th  {
+    background: rgb(247,150,70); 
+    color: #fff;
+    font-weight: normal;
+    border: 1px solid #fff;
+}
+
+.results-block td, .query-results-block td {
+    border: 1px solid #fff;
+}
+
+.results-block td a, .query-results-block td a {color: #000;}
+.results-block td a, .query-results-block td a {text-decoration: underline;}
+.results-block span.counter, .query-results-block span.counter {color: rgb(228,108,10);}
+
+.tr-even {background: #c5d9f1 !important;}
+
+/*Tables*/
+
+/*Calendars*/
+
+.ui-widget-header {
+    background: #fff;
+    color: #fff !important;
+}
+
+.ui-widget-content{
+    color: #000;
+    background: #fff;
+}
+
+.ui-state-active a
+{
+    color: #fff;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {background: rgb(228,108,10);color: hsl(0,100%,100%); !important;}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: rgb(166,166,166) !important;
+    color: #fff !important;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    background: hsl(17, 83%, 65%);
+    border: none !important;
+}
+/*Calendars*/
+
+/*Errors*/
+.error-input {background: rgb(170, 0, 20) !important;}
+
+.error-message {
+    border: 2px solid rgb(170, 0, 20);
+    background: #fff;
+}
+
+.error-message:after {border-right: 8px solid #fff; left: -8px;}
+.error-message:before {left: -10px; border-right: 8px solid rgb(170, 0, 20);}
+
+.error-message span {
+    color: black;
+}
+
+.alert-danger, .alert-error {background-color: #ECBFBF !important;}
+.alert-success {background-color: #96B38A!important;}
+
+.error {outline: 1px solid rgb(170, 0, 20) !important; border: none !important;}
+
+.errorCsvInput, .errorTab {border-color: rgb(170, 0, 20) !important;}
+
+.errorTab { background: rgba(170, 0, 20, 0.5) !important; }
+.active.errorTab { background: rgb(170, 0, 20) !important; }
+.errorTabLink { color: #fff !important; }
+/*Errors*/
+
+/*Load CSV file*/
+#file_name {
+    background: #fff;
+    border: 4px solid rgb(0, 112, 192);
+}
+
+#file_name input {
+    color: black;
+    background: none !important;
+    outline: none !important;
+}
+
+.file_browse_wrapper > div {
+    color: #fff;
+}
+
+.input-wrapper, .file_browse_wrapper {background: rgb(247,150,70);}
+/*Load CSV file*/
+
+/*Import file from CSV*/
+.importTableWrapper {
+    border: 1px solid #00b0f0;
+}
+
+.import-cancel a {color: #0070C0;text-decoration: none;}
+
+div.save > a{background:#be202e !important;}
+div.save > a:hover{background:#a10000 !important;}
+/*Import file from CSV*/
+
+/*Inputs, Comboboxes, Labels, Selects*/
+input[disabled] {
+    color: #7c7c7c !important;
+    background: #fff !important;
+    cursor: default !important;
+}
+
+.input-wrapper input {
+    color: black;
+}
+
+.select-disabled {color: #7c7c7c !important;}
+
+.arrow-down-small {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #666;
+}
+
+.select2-search {border-bottom: 1px solid #0070C0;}
+.select2-search input {
+    background: #fff !important;
+}
+
+.select2-search input:focus {border-color: #a6a6a6 !important;}
+
+.select2-results .select2-highlighted {background: #f3f3f3 !important;color: #000 !important;}
+
+.select2-drop-active {outline: 1px solid #0070C0; border: none !important;}
+
+.select2-container .select2-choice {
+    background: #fff !important;
+    color: #000;
+}
+
+.select2-container .select2-choice .select2-arrow  {
+    background: #fff !important;
+}
+
+.select2-default {background: #7c7c7c !important;}
+/*Inputs, Comboboxes, Labels, Selects*/
+
+.btn-primary {background: #00b1eb;}
+
+.btn[disabled], .btn.disabled {
+    background:rgb(166,166,166) !important;
+    color: #fff;
+}
+
+.btn-success {background: #006833;}
+.btn-success:hover {background: #006833; }
+.btn-success:active {background: #006833; }
+
+
+.md-act {background:rgb(128,197,53);}
+.md-act:hover {background: rgb(128,197,53);}
+.md-act:active {background: rgb(128,197,53);}
+.active > .md-act {background: rgb(128,197,53);}
+
+.details, .details-disable {
+    background: rgb(128,197,53);
+}
+.disable {background: #A7A7A7 !important;border-radius:5px;}
+.details-disable:hover {background: rgb(128,197,53); !important;}
+.details:hover {background: rgb(166,166,166);}
+
+.tmlp-btns:hover, .tmpl  .active {color: #fff !important; background: #69B93A !important; }
+.productTemplates_btns > .disabled {background: #C8C8C8; display: inline-block !important; color: #111 !important;}
+
+
+div.toggle > a {background-color: rgb(249,178,119);}
+
+/*
+    background-color for inactive toggle button in IE8
+
+\*/
+
+div.toggle > a {
+    background-color: rgba(249, 178, 119, 0.3);
+}
+
+div.toggle > a:hover{ background-color: rgb(177,84,7)   !important; }
+div.toggle > a.active { background-color: rgb(177,84,7) !important; }
+
+div.upper-edit-btns > div {
+    background: #bce4fa;
+    border: 1px solid #72cbf4;
+}
+
+div.upper-edit-btns div a {
+    color: #fff;
+}
+
+div.upper-edit-btns .active {background: #fff;}
+div.upper-edit-btns .active > a {color: #00b0f0;}
+
+div.cancel {
+    background: #fff !important;
+    border: 4px solid #0070C0 !important;
+}
+
+div.save a.save-button {
+    color: #fff;
+}
+
+div.lower-edit-btns .cancel a, div.lower-details-btns .cancel a {color: #0070C0;}
+
+div.switch {
+    background: #fff;
+    border: 2px solid rgb(247,150,70);
+}
+
+.onoffswitch {background: #a6a6a6;}
+.on {
+    background: rgb(166,166,166);
+    color:#fff;
+}
+
+.off {background-color: #a6a6a6; color: #FFFFFF;}
+
+.onoffswitch-switch {
+    background: #fff;
+}
+
+.onoffswitch-switch:after{
+    color: #a6a6a6;
+}
+
+.switch-container > span {
+    color: #a6a6a6;
+    white-space: nowrap;
+}
+
+a.search-button {
+    color: #fff;
+    background: rgb(228,108,10);
+}
+
+ a.search-button:hover{background:hsl(17, 83%, 65%);}
+ 
+ a.table-button {
+    color: #fff;
+    background: rgb(228,108,10);
+}
+
+ a.table-button:hover{background:hsl(17, 83%, 65%);}
+
+div.thumb {text-align: center; margin: 0;}
+div.thumb  a {text-decoration: none; color: #fff;}
+div.thumb  a  h5 {
+     background: rgb(228,108,10);
+}
+
+.btn-wrapper a, .btn-wrapper a:hover {color: #0070C0;}
+
+.page-navigation-disabled h5 {background: hsl(0, 0%, 65%) !important; cursor: default;}
+
+.nav-search .btn {background: #a2c73b;}
+.nav-search .btn-info:active {background: #a2c73b;}
+.nav-search .btn-info:hover {background: #a2c73b;}
+
+.block-bordered-blue-content {
+    border: 1px solid #be202e;
+}
+
+.block-bordered-content {
+	border: 1px solid #ED7444;
+}
+
+.iframe-content{
+	border: 1px solid #A8A8A8;
+}
+
+.product-content{
+	border: 1px solid #ED7444;
+}
+
+.status-indicator {
+    border-bottom: 1px solid hsl(17, 83%, 60%);
+}
+
+.status-indicator-ext {
+    border-bottom: 1px solid hsl(17, 83%, 60%);
+}
+
+div.point {
+    background-color: hsl(17, 83%, 60%);
+}
+
+div.point.active-point {
+    background-color: green;
+}
+
+/* lines */
+.line:after {
+    border-bottom: 2px solid #9C8C8C;
+}
+
+
+
+.line-ext:after {
+    border-bottom: 2px solid #9C8C8C;
+}
+/* lines */
+
+/* arrows */
+span.arrow:before, span.arrow:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+span.arrow:before {
+    border-top: 10px solid hsl(17, 83%, 60%);
+}
+
+span.arrow:after{
+    border-top: 10px solid white;
+}
+/* arrows */
+
+/*LogIN End*/
+/*Start Add Division Add Retailer and Manage Users*/
+
+.nav.switchable li.active a {
+    background-color: #F79646;
+	border: 1px solid #F79646;
+}
+.nav.switchable li.active a:hover {
+    color: rgb(228, 108, 91);
+    font-weight: bold;
+    background-color: #F79646;;
+	border: 1px solid #F79646;
+}
+.nav.switchable li:not(.active) a {
+    color: white;
+    font-weight: bold;
+    background-color: #FDEADA;
+    border: 1px solid #FDEADA;
+}
+
+/************/
+
+/*Tables*/
+.results-block tr, .query-results-block tr {background: rgb(253,239,233);}
+.results-block tr:nth-child(even), .query-results-block tr:nth-child(even) {background: rgb(252,221,207);}
+.results-block tr th, .query-results-block tr th  {
+    background: rgb(247,150,70); 
+    color: #fff;
+    border: 1px solid #fff; 
+}
+
+.results-block td, .query-results-block td {
+    border: 1px solid #fff;
+} 
+
+.results-block td a, .query-results-block td a {color: #000;}
+.results-block td a, .query-results-block td a {text-decoration: underline;}
+.results-block span.counter, .query-results-block span.counter {color: #be202e;}
+
+.tr-even {background: #c5d9f1 !important;}
+
+/*Tables*/
+
+.orange-bg {
+    background-color: rgb(253, 234, 218);
+}
+.orange{
+    color: rgb(228,108,10);
+}
+
+.product-tabs{
+	background: #FFF;
+}
+
+.theme-background-color
+{
+    background: #EBF1DE;
+}
+
+.version-info{
+	color: rgb(228,108,10);
+}
+
+.nav-tabs > li > a {
+	color:rgb(85,85,85) ;
+}
+.nav-tabs > .active > a {
+	color: rgb(228,108,10);
+}
+
+.nav-tabs > .active > a:focus {
+	color: rgb(228,108,10);
+}
+
+div.button-border-radius > a{
+	border-radius: 3px;
+}
+

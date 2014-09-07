@@ -1,0 +1,82 @@
+Main Elements:
+
+body background: #f1fafe
+Main content container background: #fff
+Main content container border: 1px solid #72cbf4;
+Main content container border-radius:16px
+
+
+Controls:
+
+Channel Structure panel:
+Channel Structure panel border: 1px solid #00b0f0
+Channel Structure panel border-radius:8px
+Channel Structure panel background: #fff
+
+Channel Details panel:
+Channel Details panel border: 0px
+Channel Structure panel border-radius:8px
+Channel Details panel background: #bce4fa
+
+Context Help panel:
+Context Help panel border: 1px solid #ccc
+Channel Structure panel border-radius:8px
+Context Help panel background: #fff
+
+Bulletin/Documents panel:
+Bulletin/Documents panel border: 1px solid #0078bf
+Bulletin/Documents panel border-radius:8px
+Bulletin/Documents panel background: #fff
+
+
+Buttons/menu items:
+
+Menu Items:
+
+Menu Item border: 0px
+Menu Item border-radius:5px
+Menu Item background: #fff
+Menu Item.active background: #00b0f0 <!--active = here is a custom class which must be enforced on and after the object was clicked-->
+Menu Item.hover background: ?
+
+Channel Items:
+
+Channel Item_level1 border: 0px
+Channel Item_level1 border-radius:5px
+Channel Item_level1 background: #006833
+Channel Item_level1.active background: #006833 <!--active = here is a custom class which must be enforced on and after the object was clicked-->
+Channel Item_level1.hover background:#006833
+
+Channel Item_level2 border: 0px
+Channel Item_level2 border-radius:5px
+Channel Item_level2 background: #004d9d 
+Channel Item_level2.active background: #398936 <!--active = here is a custom class which must be enforced on and after the object was clicked-->
+Channel Item_level2.hover background:#398936
+
+Channel Item_level3 border: 0px
+Channel Item_level3 border-radius:5px
+Channel Item_level3 background: #0078c0
+Channel Item_level3.active background: #13a538 <!--active = here is a custom class which must be enforced on and after the object was clicked-->
+Channel Item_level3.hover background: #13a538
+
+Channel Item_level4 border: 0px
+Channel Item_level4 border-radius:5px
+Channel Item_level4 background: #00b1eb
+Channel Item_level4.active background: #69B93A <!--active = here is a custom class which must be enforced on and after the object was clicked-->
+Channel Item_level4.hover background: #69B93A
+
+Channel Item_search border: 0px
+Channel Item_search border-radius:5px
+Channel Item_search background: #a2c73b
+Channel Item_search.active background: #a2c73b <!--active = here is a custom class which must be enforced on and after the object was clicked-->
+Channel Item_search.hover background: #a2c73b
+
+Buttons:
+
+Button border: 0px
+Button border-radius:5px
+Button background: #0070C0
+Button.disabled background: #C8C8C8
+Button.hover background: ?
+Button.active background: ? <!-- this is the standard onclick action-->
+
