@@ -402,6 +402,9 @@ a.search-button {
     color: #fff;
     background: rgb(228,108,10);
 	border-radius: 6px 14px 9px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
 }
 
  a.search-button:hover{background:hsl(17, 83%, 65%);}
