@@ -260,13 +260,13 @@ span[class^="ico-"] {
 .ico-billing {
     width: 31px;
     height: 27px;
-    background: url('../img/icon-sprites2-small.png') no-repeat -28px -178px;
+    background: url('../img/icon-sprites2-small.png') no-repeat -1px -178px;
 }
 
 .active .ico-billing {
 	width: 31px;
     height: 27px;
-    background: url('../img/icon-sprites2-small.png') no-repeat 2px -148px;
+    background: url('../img/icon-sprites2-small.png') no-repeat -29px -149px;
 }
 .ico-home {
     width: 33px;
@@ -505,7 +505,7 @@ div.right-edit {min-height: 660px !important;}
 div.right-search {min-height: 700px !important;}
 
 div.white-bg, div.blue-bg {padding: 10px;}
-div.blue-bg {background: #bce4fa;}
+div.blue-bg {background: Rgb(253,234,218);}
 div.white-bg {background: #fff;}
 div.white-bg > h6 {margin-top:0 !important;}
 
@@ -655,6 +655,9 @@ div.structure {margin-bottom: 0;}
 .ui-widget-header .ui-state-focus {
     background: hsl(198, 76%, 52%);
     border: none !important;
+}
+.ui-datepicker-title{
+	color: #000;
 }
 /*Calendars*/
 
@@ -868,8 +871,14 @@ noindex:-o-prefocus, .importTableWrapper {padding-bottom: 15px;}
 
 .import-cancel a {color: #0070C0;text-decoration: none;}
 
-div.save > a{line-height: 34px;white-space: pre-line;background:#be202e !important;}
-div.save > a:hover{line-height: 34px;white-space: pre-line;background:#a10000 !important;}
+div.save > a{line-height: 34px;white-space: pre-line;background:rgb(228,108,10)!important;}
+div.save > a:hover{
+	line-height: 34px;
+	white-space: pre-line;
+	background:#fff !important;
+	color: rgb(228,108,10);
+	border: 2px solid rgb(228,108,10);
+	border-radius: 5px;}
 .save{background:none !important;}
 /*Import file from CSV*/
 
@@ -986,7 +995,7 @@ div.clearfix label {top: -43px;}
 .label_wrapper {position: relative;}
 .label_wrapper label {top: -30px; margin-left: 0; display: none;}
 
-.select2-search {border-bottom: 1px solid #0070C0;}
+.select2-search {border-bottom: 1px solid Rgb(247, 150, 70);}
 .select2-search input {
     border: none !important;
     background: #fff !important;
@@ -1002,7 +1011,7 @@ div.clearfix label {top: -43px;}
     font-size: 13px !important;
 }
 
-.select2-drop-active {outline: 1px solid #0070C0; border: none !important;}
+.select2-drop-active {outline: 1px solid Rgb(247, 150, 70); border: none !important;}
 
 #buttonSearch {right: 0;top: 50%;}
 
@@ -1195,7 +1204,7 @@ div.upper-edit-btns {width: 50%; position: relative; float: left}
 div.upper-edit-btns > div {
     background: #bce4fa;
     width: 23%;
-    border: 1px solid #72cbf4;
+    border: 1px solid rgb(228,108,10);
     margin-top: -6px;
     height: 30px;
     float: left;
@@ -1212,7 +1221,7 @@ div.upper-edit-btns div a {
 }
 
 div.upper-edit-btns .active {background: #fff;}
-div.upper-edit-btns .active > a {color: #00b0f0;}
+div.upper-edit-btns .active > a {color:rgb(228,108,10);}
 
 div.cancel {
     background: #fff !important;
@@ -1604,6 +1613,30 @@ form > .cancel {margin: 2% 0 0 0 !important;}
     .off:after {right: 40px !important;}
     .onoffswitch-switch {width: 16px; height: 9px;}
     .onoffswitch-switch:after {padding: 2px 5px;}
+}
+@media (max-width: 767px){
+	.content{
+		margin-top: 10px;
+		padding: 4px;
+		width: 100%!important;
+		margin-left: 0%!important;
+	}
+	.span6 .td-btn{
+		margin: 0;
+	}
+	.row-fluid [class*="span"]{
+		float: left!important;
+	}
+	.span10 .title{
+		text-align: left;
+	}
+	.nav{
+		margin: auto;
+	}
+	.nav-pills > li{
+		width: 100%;
+		margin: auto;
+	}
 }
 /*Media queries*/
 
