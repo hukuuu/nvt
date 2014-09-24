@@ -1498,8 +1498,10 @@ form > .cancel {margin: 2% 0 0 0 !important;}
     
     .reportsInput {width: 100% !important;}
     .shortInput {width: 48.6% !important;}
+	.shorterInput {width: 32% !important;}
     
     div.switch {margin-left: 0 !important;}
+    div.switchRight {margin-left: 10% !important;}
 
     #buttonSearch {top: 45% !important;}
 
@@ -1547,8 +1549,10 @@ form > .cancel {margin: 2% 0 0 0 !important;}
     
     .reportsInput {width: 100% !important;}
     .shortInput {width: 48.7% !important;}
+	.shorterInput {width: 35% !important;}
     
     div.switch {margin-left: 0 !important;}
+    div.switchRight {margin-left: 4% !important;}
 
     .btn-details-wrapper {padding-left: 4% !important;}
 
