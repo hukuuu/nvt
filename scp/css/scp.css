@@ -40,69 +40,101 @@ a:hover {
 /*End LogIn Page*/
 
 /*Start LogOut Page/button*/
-	.logout a{
-		background: #E46C0A;
-	}
-	
-	.logout a:hover{
-		background: hsl(17, 83%, 65%);
-		color: hsl(0,100%,100%);
-	}
-	
- 	.logout a:active{
-		background: hsl(17, 83%, 65%);
-		color: hsl(0,100%,100%);
-	}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, 
+.dropdown-submenu:focus > a {
+    background: #F0865C;
+    background: hsl(17, 83%, 65%);
+    color: #FFFFFF;
+    color: hsl(0,100%,100%);
+}
+
+.logout .btn-primary:hover,.logout .btn-primary:focus{
+	  background: #F0865C;
+}
+
 /*End LogOut Page/button*/
 
 
 /*Start Buttons*/  /*RENAME THE CSS CLASS NAME*/
 .flxw-button{
+    background: #E46C0A;
     background: rgb(228,108,10);
 }
 .flxw-button:hover{
+    background: #F0865C;
+    color: #FFFFFF;
 	background: hsl(17, 83%, 65%);
 	color: hsl(0,100%,100%);
 }
 .flxw-button:active{
+    background: #F0865C;
+    color: #FFFFFF;
 	background: hsl(17, 83%, 65%);
 	color: hsl(0,100%,100%);
 }
 .flxw-button:visited{
+	background: #F0865C;
+    color: #FFFFFF;
 	background: hsl(17, 83%, 65%);
 	color: hsl(0,100%,100%);
 }
 .flxw-button:focus{
+    background: #F0865C;
+    color: #FFFFFF;
 	background: hsl(17, 83%, 65%);
 	color: hsl(0,100%,100%);
 	outline: none;
 }
 /*back/Cancel button*/
 .flxw-button-back{
+    color: #E46C0A;
+    background: #FFFFFF;
 	color: rgb(228,108,10)!important;
 	background: hsl(0, 100%, 100%)!important;
-	border: 2px solid rgb(228,108,10)!important;
+	border: 2px solid #E46C0A !important;
 }
 .flxw-button-back:hover{
+    background: #FFFFFF;
+    color: #F0865C;
 	background: hsl(0, 100%, 100%);
 	color: hsl(17, 83%, 65%)!important;
-	border: 2px solid hsl(17, 83%, 65%)!important;
+	border: 2px solid #F0865C !important;
 }
 .flxw-button-back:active{
+    background: #FFFFFF;
+    color: #F0865C;
 	background: hsl(0, 100%, 100%);
 	color: hsl(17, 83%, 65%)!important;
-	border: 2px solid hsl(17, 83%, 65%)!important;
+	border: 2px solid #F0865C !important;
 }
 .flxw-button-back:visited{
+    background: #FFFFFF;
+    color: #F0865C;
 	background: hsl(0, 100%, 100%);
 	color: hsl(17, 83%, 65%)!important;
-	border: 2px solid hsl(17, 83%, 65%)!important;
+	border: 2px solid #F0865C !important;
 }
 .flxw-button-back:focus{
+    background: #FFFFFF;
+    color: #F0865C;
 	background: hsl(0, 100%, 100%);
 	color: hsl(17, 83%, 65%)!important;
-	border: 2px solid hsl(17, 83%, 65%)!important;
+	border: 2px solid #F0865C !important;
 	outline: none;
+}
+
+.btn-group.open .btn-primary.dropdown-toggle {
+	background: #FFFFFF;
+    color: #F0865C;
+	background: hsl(17, 83%, 65%);
+	color: hsl(0, 100%, 100%);
+}
+
+.btn-group.open .btn-primary.dropdown-active {
+	background: #FFFFFF;
+    color: #F0865C;
+	background: hsl(17, 83%, 65%);
+	color: hsl(0, 100%, 100%);
 }
 /*End Buttons*/
 
@@ -118,6 +150,7 @@ input[type="radio"] {margin:0 5px 5px 40% !important;}
 
 /*Content block*/
 .content-wrapper {
+    background-color: #EBF1DF;
     background-color: hsl(79,40%,91%);
 }
 
@@ -147,8 +180,10 @@ div.left {
     /* border: 1px solid #be202e; */
 }
 
+div.blue-bg {background: #EBF1DE;}
+
 .block-bottom {
-    border: 1px solid hsl(2, 48%, 53%);
+    border: 1px solid #C1514E;
 }
 
 .block-info {background-color: rgb(235,241,222);}
@@ -203,6 +238,7 @@ div.left {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
+    background: #F0865C;
     background: hsl(17, 83%, 65%);
     border: none !important;
 }
@@ -307,7 +343,19 @@ input[disabled] {
 .select2-default {background: #7c7c7c !important;}
 /*Inputs, Comboboxes, Labels, Selects*/
 
-.btn-primary {background: #00b1eb;}
+.btn-primary {background: #F0865C;}
+
+.btn-group.open .btn-primary.dropdown-toggle {
+	background: #F0865C;
+}
+
+.btn-primary.dropdown-toggle :hover {
+	background: #F0865C;
+}
+
+.btn-group.open .btn-primary.dropdown-toggle :active {
+	background: #F0865C;
+}
 
 .btn[disabled], .btn.disabled {
     background:rgb(166,166,166) !important;
@@ -350,8 +398,8 @@ div.toggle > a:hover{ background-color: rgb(177,84,7)   !important; }
 div.toggle > a.active { background-color: rgb(177,84,7) !important; }
 
 div.upper-edit-btns > div {
-    background: #bce4fa;
-    border: 1px solid #72cbf4;
+    background: #EBF1DE;
+    border: 1px solid #EBF1DE;
 }
 
 div.upper-edit-btns div a {
@@ -359,18 +407,18 @@ div.upper-edit-btns div a {
 }
 
 div.upper-edit-btns .active {background: #fff;}
-div.upper-edit-btns .active > a {color: #00b0f0;}
+div.upper-edit-btns .active > a {color: #F68B32;}
 
 div.cancel {
     background: #fff !important;
-    border: 4px solid #0070C0 !important;
+    /*border: 4px solid #0070C0 !important; */
 }
 
 div.save a.save-button {
     color: #fff;
 }
 
-div.lower-edit-btns .cancel a, div.lower-details-btns .cancel a {color: #0070C0;}
+div.lower-edit-btns .cancel a, div.lower-details-btns .cancel a {color: #FFFFFF;}
 
 div.switch {
     background: #fff;
@@ -401,20 +449,19 @@ div.switch {
 a.search-button {
     color: #fff;
     background: rgb(228,108,10);
-	border-radius: 6px 14px 9px 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-
 }
 
- a.search-button:hover{background:hsl(17, 83%, 65%);}
+ a.search-button:hover{
+    background: #F0865C;
+    background:hsl(17, 83%, 65%);
+}
  
  a.table-button {
     color: #fff;
     background: rgb(228,108,10);
 }
 
- a.table-button:hover{background:hsl(17, 83%, 65%);}
+ a.table-button:hover{background: #F0865C; background:hsl(17, 83%, 65%);}
 
 div.thumb {text-align: center; margin: 0;}
 div.thumb  a {text-decoration: none; color: #fff;}
@@ -424,7 +471,7 @@ div.thumb  a  h5 {
 
 .btn-wrapper a, .btn-wrapper a:hover {color: #0070C0;}
 
-.page-navigation-disabled h5 {background: hsl(0, 0%, 65%) !important; cursor: default;}
+.page-navigation-disabled h5 {background: #A6A6A6; background: hsl(0, 0%, 65%) !important; cursor: default;}
 
 .nav-search .btn {background: #a2c73b;}
 .nav-search .btn-info:active {background: #a2c73b;}
@@ -447,14 +494,15 @@ div.thumb  a  h5 {
 }
 
 .status-indicator {
-    border-bottom: 1px solid hsl(17, 83%, 60%);
+    border-bottom: 1px solid #EE7444;
 }
 
 .status-indicator-ext {
-    border-bottom: 1px solid hsl(17, 83%, 60%);
+    border-bottom: 1px solid #EE7444;
 }
 
 div.point {
+    background-color: #EE7444;
     background-color: hsl(17, 83%, 60%);
 }
 
@@ -481,7 +529,7 @@ span.arrow:before, span.arrow:after {
 }
 
 span.arrow:before {
-    border-top: 10px solid hsl(17, 83%, 60%);
+    border-top: 10px solid #EE7444;
 }
 
 span.arrow:after{
@@ -565,5 +613,36 @@ span.arrow:after{
 
 div.button-border-radius > a{
 	border-radius: 3px;
+}
+.dropdown-menu > li > a {
+	background-color:#FFF;
+}
+
+.modal-header {
+	background:rgb(228,108,10);
+}
+
+.receipt-model {
+	width :50%;
+	height: 55%;
+	align: center;
+	position: center;
+    background-color: #EBF1DE;
+    border: 1px solid;
+}
+
+.modal {
+    background-color: #EBF1DE;
+}
+
+
+.modal-footer{
+	background-color: #EBF1DE;
+}
+
+.alert-info {
+    color: #F79646;
+    background-color: #FCF8E3;
+    line-height: 25px;
 }
 
