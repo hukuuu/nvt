@@ -112,11 +112,11 @@ img.main-logo {
     background-color: #0088CC;
     background-color: hsl(200, 100%, 40%);
 }
-.nav-pills > .active > a {font-weight: bold;}
-.nav-pills > li {width: 83%;}
+.nav-pills > .active > a {font-weight: bold; font-size: 1.1em;}
+.nav-pills > li {width: 90%;}
 .nav-pills > li > a {
     background-color: #FFF;
-    font-size: 16px;
+    font-size: 1.1em;
     color: #7c7c7c;
     line-height: 24px;
     padding-top: 7px;
@@ -283,53 +283,53 @@ span[class^="ico-"] {
 /*Start Icons*/
 .ico-product {
     background: url('../img/scp-sprites.png') no-repeat -1px -65px;
-    width: 33px;
+    width: 31px;
     height: 25px;
 }
 .active .ico-product {
     background: url('../img/scp-sprites.png') no-repeat -31px -65px;
-    width: 33px;
+    width: 31px;
     height: 25px;
 }
 .ico-chart {
-     width: 29px;
+     width: 31px;
     height: 27px;
     background: url('../img/scp-sprites.png') no-repeat -1px -34px;
 }
 .active .ico-chart {
-    width: 29px;
+    width: 31px;
     height: 27px;
     background: url('../img/scp-sprites.png') no-repeat -31px -34px;
 }
 .ico-support {
-	width: 33px;
+	width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -1px -244px;
 }
 
 .active .ico-support {
-	width: 33px;
+	width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -31px -244px;
 }
 .ico-billing {
-    width: 33px;
+    width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -1px -155px;
 }
 
 .active .ico-billing {
-	width: 33px;
+	width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -31px -155px;
 }
 .ico-home {
-    width: 33px;
+    width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -1px -6px;
 }
 .active .ico-home {
-	width: 33px;
+	width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -31px -6px;
 }
@@ -376,12 +376,12 @@ span[class^="ico-"] {
 }
 .ico-account{
 	background: url('../img/scp-sprites.png') no-repeat -1px -215px;
-    width: 33px;
+    width: 31px;
     height: 25px;
 }
 .active .ico-account{
 	background: url('../img/scp-sprites.png') no-repeat -31px -215px;
-    width: 33px;
+    width: 31px;
     height: 25px;
 }
 .ico-cashInOut{
@@ -416,21 +416,21 @@ span[class^="ico-"] {
 }
 .ico-transaction {
     background: url('../img/scp-sprites.png') no-repeat -1px -965px;
-    width: 33px;
+    width: 31px;
     height: 25px;
 }
 .active .ico-transaction {
-    width: 33px;
+    width: 31px;
     height: 25px;
     background: url('../img/scp-sprites.png') no-repeat -31px -965px;
 }
 .ico-documents { 
-	width: 22px; 
+	width: 31px; 
 	height: 23px;
 	background: url('../img/scp-sprites.png') no-repeat -1px -275px;
 }
 .active .ico-documents {
-	width: 22px; 
+	width: 31px; 
 	height: 23px;
 	background: url('../img/scp-sprites.png') no-repeat -31px -275px;
 }
@@ -475,8 +475,8 @@ input#authenticationProfile{margin:1px 0 0 0;}
     background-color: #FFF;
     border: 1px solid #666666;
     position: relative;
-    margin-left: -2% !important;
-    width: 87% !important;
+    margin-left: -1% !important;
+    width: 86% !important;
     min-height: 525px !important;
     border-radius: 26px !important;
     margin-top: -46px;
@@ -930,7 +930,7 @@ input[disabled] {
     padding: 4px 9px !important;
 }
 
-.input-wrapper  > div {overflow: hidden; height: 100%;}
+.input-wrapper  > div {overflow: hidden; height: 100%; border-radius: 5px;}
 .switch > div {overflow: visible;}
 
 .input-wrapper span.name {background: url("../img/scp-sprites.png") no-repeat -28px -898px;}

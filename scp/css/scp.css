@@ -297,8 +297,8 @@ div.blue-bg {background: #EBF1DE;}
 
 .import-cancel a {color: #0070C0;text-decoration: none;}
 
-div.save > a{background:#be202e !important;}
-div.save > a:hover{background:#a10000 !important;}
+div.save > a{background:rgb(228,108,10) !important;}
+div.save > a:hover{background:hsl(17, 83%, 65%) !important;}
 /*Import file from CSV*/
 
 /*Inputs, Comboboxes, Labels, Selects*/
@@ -320,7 +320,7 @@ input[disabled] {
     border-top: 6px solid #666;
 }
 
-.select2-search {border-bottom: 1px solid #0070C0;}
+.select2-search {border-bottom: 1px solid rgb(228,108,10);}
 .select2-search input {
     background: #fff !important;
 }
@@ -329,7 +329,7 @@ input[disabled] {
 
 .select2-results .select2-highlighted {background: #f3f3f3 !important;color: #000 !important;}
 
-.select2-drop-active {outline: 1px solid #0070C0; border: none !important;}
+.select2-drop-active {outline: 1px solid rgb(228,108,10); border: none !important;}
 
 .select2-container .select2-choice {
     background: #fff !important;
@@ -448,7 +448,8 @@ div.switch {
 
 a.search-button {
     color: #fff;
-    background: rgb(228,108,10);
+	background: rgb(228,108,10);
+	border-radius: 5px;
 }
 
  a.search-button:hover{
