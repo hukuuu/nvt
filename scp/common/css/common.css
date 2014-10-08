@@ -1822,6 +1822,13 @@ div.point.active-point {
     margin-left: 10px;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .line:after {
+        margin-left: 20px;
+    }
+}
+
+
 .line-ext:after {
     top: 9px;
     position: absolute;
