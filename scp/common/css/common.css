@@ -1063,7 +1063,8 @@ div.clearfix label {top: -43px;}
 
 input[type="text"], input[type="password"] {font-size: 12px;padding: 3px 3px 5px;border:none;}
 
-.btn {border: none; line-height: 13px;}
+.btn {border: none; line-height: 13px; background: hsl(27, 92%, 47%); color: #fff;}
+.btn:hover {background: hsl(17, 83%, 65%); color: #fff;}
 
 .md-act {background: #004b46;}
 .md-act:hover {background: #004b46;}
