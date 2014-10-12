@@ -1049,6 +1049,7 @@ div.clearfix label {top: -43px;}
 .select2-container .select2-choice .select2-arrow  {
     border: none !important;
     background: #fff !important;
+	filter: none;
 }
 
 .select2-container {margin-top: 4px !important;}
